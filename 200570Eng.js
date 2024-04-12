@@ -85,11 +85,11 @@ menu2.onclick=function(){
     Advice.style.display='none'
 };  
 menu3.onclick=function(){
-    backgroundElement.style.backgroundImage='url("LandingPLL.png")'
+    backgroundElement.style.backgroundImage='url("LandingPL.png")'
     backgroundElement.style.backgroundColor='var(--lightBGColor)'
     backgroundElement.style.backgroundSize='100%'
     backgroundElement.style.backgroundRepeat='no-repeat'
-    backgroundElement.style.backgroundPosition='bottom'
+    backgroundElement.style.backgroundPosition='center'
     SerVV.style.display='none'
     SerVV.style.left='70%'
     footer.scrollIntoView();
