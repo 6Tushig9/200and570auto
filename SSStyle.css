@@ -191,16 +191,16 @@ body{
     transform:  translateY(0) !important;
 }
 .cardd[for="cc1"]{
-    background-image: url('005.png');
+    background-image: url('005r.jpg');
 }
 .cardd[for="cc2"]{
-    background-image: url('001c.png');
+    background-image: url('001r.jpg');
 }
 .cardd[for="cc3"]{
-    background-image: url('004c.png');
+    background-image: url('004r.jpg');
 }
 .cardd[for="cc4"]{
-    background-image: url('002c.png');
+    background-image: url('002r.jpg');
 }
 
 
