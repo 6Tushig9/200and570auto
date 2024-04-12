@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    place-items: center;
+    margin: 0;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    height: 100%;
+    background: linear-gradient(60deg,#131313,#333640,#de8989);
+    background-size: 300% 300%;
+    color: #fdfcfd;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation: color 12s ease-in-out infinite forwards;
+}
+@keyframes color {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+header{
+    z-index: 2000;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    background-color: #221d2d;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+header a:hover{
+    transform: translateY(2px);
+}
+header a{
+    position: fixed;
+    align-self:flex-end;
+    font-size: xx-large;
+    border: 1.5px solid #221d2d;
+    border-radius: 0.5rem;
+    color: #f8f8f8;
+    text-decoration: none;
+    padding: 3px;
+} 
+header img{
+    height: 80px;
+    width: 80px;
+    background-image: url("200and570logo.jpg");
+    border-radius: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.card:hover{
+    box-shadow: 4px 6px 8px #1210175e;
+    transform:translateY(4px);
+    transition: 0.3s ease-in-out;
+    opacity: 1;
+}
+.card{
+    display: flex;
+    align-items: center;
+    width: 80vw;
+    max-width: 850px;
+    padding: 50px 30px 50px 20px;
+    margin: 40px 20px;
+    background: #121017;
+    border-radius: 24px;
+    box-shadow: 8px 8px 8px #1210175e;
+    opacity: 0.85;
+    animation: fade-in linear;
+    animation-timeline: view();
+    animation-range-start: cover;
+    animation-range-end: 500px;
+}
+.card img{
+    max-width: 280px;
+    width: 35vw;
+    height: 380px;
+    object-fit: cover;
+    margin-left: -60px;
+    margin-right: 30px;
+    border-radius: inherit;
+    box-shadow: 0 60px 40px rgb(0 0 0/8%);
+}
+.card h2{
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+.card h3{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px 0;
+    opacity: 0.75;
+}
+.card p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    opacity: 0.5;
+}
+.card a {
+    display: grid;
+    place-items: center;
+    border: 0;
+    background: #6939ff;
+    color: #f8f8f8;
+    padding: 16px 26px;
+    font-size: 20px;
+    border-radius: 40px;
+    text-decoration: none;
+}
+
+
+.slideEffect{
+    width: 400px;
+    height: auto;
+    border: none;
+    color: #fdfcfd;
+    background-color: #6939ff;
+    border-radius: 15px;
+    transition: ease-out 0.3s;
+    font-size: 2rem;
+    box-shadow: inset 0 0 0 0 #de8989;
+    outline: none;
+}
+.slideEffect:hover{
+    box-shadow: inset 400px 0 0 0 #de8989;
+}
+
+
+
+.scrollWatcher{
+    height: 15px;
+    width: 100%;
+    position: fixed;
+    background-color: #6939ff;
+    bottom: 0;
+    z-index: 10000;
+    scale: 0 1;
+    transform-origin: left;
+    animation: scroll-watcher linear;
+    animation-timeline: scroll(y);
+}
+.BackToTop:hover{
+    background-color: #6939ff;
+    transform: translateY(-2px);
+}
+.BackToTop{
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    display: inline-flex;
+    border-radius: 3px;
+    align-items: center;
+    justify-content: center;
+    background-color: #6b39ffac;
+    text-decoration: none;
+    padding: 0.5rem;
+    transition: 0.2s ease-out;
+}
+.BackToTop span:hover{
+    transform: translateY(-2px);
+}
+.BackToTop span{
+    color: #f8f8f8;
+    font-size: 3rem;
+    transition: 0.3s ease-out;
+}
+
+@keyframes scroll-watcher {
+    to {scale: 1 1;}
+}
+@keyframes fade-in {
+    from{ scale: 0.8; opacity: 0;}
+    to{ scale: 1; opacity: 1;}
+}
+
+
+@media (width <=600px) {
+    .card{
+        margin: 0 40px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 60px;
+        width: 100%;
+        text-align: center;
+        flex-direction: column;
+    }
+    .card h2{
+        margin-right: 0;
+    }
+    .card img{
+        margin: -100px 0 30px 0;
+        width: 100%;
+        border-radius: 50%;
+        margin-top: -140px;
+    }
+}
+
+
+@media (width <=800px) {
+    .card{
+        margin: 40px 40px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 60px;
+        padding-top: 170px;
+        width: 100%;
+        text-align: center;
+        flex-direction: column;
+    }
+    .card h2{
+        margin-right: 0;
+    }
+    .card img{
+        margin: -100px 0 30px 0;
+        width: 100%;
+        border-radius: 10px;
+        margin-top: -140px;
+    }
+    .box{
+        width: 10rem ;
+    }
+}
