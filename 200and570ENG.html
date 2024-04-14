@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="SSStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" 
+    rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" 
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=M+PLUS+Rounded+1c&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" 
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=M+PLUS+Rounded+1c&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" 
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=M+PLUS+Rounded+1c&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" 
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Comfortaa:wght@300..700&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=M+PLUS+Rounded+1c&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" 
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Comfortaa:wght@300..700&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=M+PLUS+Rounded+1c&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Sofia+Sans+Extra+Condensed:ital,wght@0,1..1000;1,1..1000&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" 
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Comfortaa:wght@300..700&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=M+PLUS+Rounded+1c&family=Manrope:wght@200..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Sofia+Sans+Extra+Condensed:ital,wght@0,1..1000;1,1..1000&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" 
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Comfortaa:wght@300..700&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Jura:wght@300..700&family=M+PLUS+Rounded+1c&family=Manrope:wght@200..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Sofia+Sans+Extra+Condensed:ital,wght@0,1..1000;1,1..1000&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" 
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Comfortaa:wght@300..700&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Jura:wght@300..700&family=M+PLUS+Rounded+1c&family=Manrope:wght@200..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=PT+Sans+Narrow:wght@400;700&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Sofia+Sans+Extra+Condensed:ital,wght@0,1..1000;1,1..1000&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" 
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Comfortaa:wght@300..700&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Jura:wght@300..700&family=M+PLUS+Rounded+1c&family=Manrope:wght@200..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=PT+Sans+Narrow:wght@400;700&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Sofia+Sans+Extra+Condensed:ital,wght@0,1..1000;1,1..1000&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" 
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Comfortaa:wght@300..700&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Jura:wght@300..700&family=M+PLUS+Rounded+1c&family=Manrope:wght@200..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=PT+Sans+Narrow:wght@400;700&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Sofia+Sans+Extra+Condensed:ital,wght@0,1..1000;1,1..1000&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Ysabeau+SC:wght@1..1000&display=swap" 
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Alumni+Sans:ital,wght@0,100..900;1,100..900&family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Comfortaa:wght@300..700&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Jura:wght@300..700&family=M+PLUS+Rounded+1c&family=Manrope:wght@200..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=PT+Sans+Narrow:wght@400;700&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Sofia+Sans+Extra+Condensed:ital,wght@0,1..1000;1,1..1000&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Tektur:wght@400..900&family=Ysabeau+SC:wght@1..1000&display=swap" 
+    rel="stylesheet">
+</head>
+<body data-rellax-speed="-3">
+    <div class="Main" data-rellax-speed="3">
+        <div class="HomeScrn"></div>
+        <div class="SideM">
+            <img class="Logo">
+            <div class="menuText">
+                <ul class="SideMtext" id="m1">SERVICES</ul>
+                <ul class="SideMtext" id="m2">PRODUCTS</ul>
+                <ul class="SideMtext" id="m3">ABOUT US</ul>
+                <ul class="SideMtext" id="m4">HUMAN RESOURCE</ul>
+                <ul class="SideMtext" id="m5">ADVICE</ul>
+            </div>
+            <div class="SocialCont">
+                <a href="https://www.facebook.com/200and570service" 
+                style="text-decoration: none;">
+                    <img src="facebookCircle.png" class="Facebookicon">
+                </a>
+                <a href="https://www.youtube.com/@AutoService570" 
+                style="text-decoration: none;">
+                    <img src="youtubeCircle.png" class="Emailicon">
+                </a>
+                <a href="https://www.instagram.com/autoservice_land/" 
+                style="text-decoration: none;">
+                    <img src="instagramCircle.png" class="Instagramicon">
+                </a>
+            </div>
+        </div>
+        <div class="MainSback" id="background">
+            <div id="Services" class="bodyy">
+                <div class="wrppr">
+                    <div class="contnr">
+                        <input type="radio" name="slide" id="cc1" checked>
+                        <label for="cc1" class="cardd">
+                            <div class="roww">
+                                <div class="icon">1</div>
+                                <div class="descrtn">
+                                    <h4>Body Repair</h4>
+                                    <p>Машины явах эд ангийн засварыг 
+                                    мэргэжлийн түвшинд хийж үйлчилнэ.</p>
+                                </div>
+                            </div>
+                        </label>
+                        <input type="radio" name="slide" id="cc2" >
+                        <label for="cc2" class="cardd">
+                            <div class="roww">
+                                <div class="icon">2</div>
+                                <div class="descrtn">
+                                    <h4>Engine Repair</h4>
+                                    <p>Машины явах эд ангийн засварыг 
+                                    мэргэжлийн түвшинд хийж үйлчилнэ.</p>
+                                </div>
+                            </div>
+                        </label>
+                        <input type="radio" name="slide" id="cc3" >
+                        <label for="cc3" class="cardd">
+                            <div class="roww">
+                                <div class="icon">3</div>
+                                <div class="descrtn">
+                                    <h4>Oil Changing</h4>
+                                    <p>Машины явах эд ангийн засварыг 
+                                    мэргэжлийн түвшинд хийж үйлчилнэ.</p>
+                                </div>
+                            </div>
+                        </label>
+                        <input type="radio" name="slide" id="cc4">
+                        <label for="cc4" class="cardd">
+                            <div class="roww">
+                                <div class="icon">4</div>
+                                <div class="descrtn">
+                                    <h4>Diagnostics</h4>
+                                    <p>Машины явах эд ангийн засварыг 
+                                    мэргэжлийн түвшинд хийж үйлчилнэ.</p>
+                                </div>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="topParts" id="TP">
+                <div class="MostWanted">MOST WANTED</div>
+                <div class="MWtitle" id="MWT">V6 engine</div>
+                <div class="Specs" id="SPCs">Энэ хэсэгт сонгогдсон бүтээгдэхүүний тухай мэдээлэл 
+                    гарч ирэх бөгөөд мөн доод хэсэгт үнийн мэдээлэл гарч ирэх боломжтой.
+                </div>
+                <div class="Call">&#9990; +976-7272 7200</div>
+                <div class="PopUp" id="PopUp">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" id="Aup" style="display: auto;" fill="currentColor" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
+                        <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" id="Adown" style="display: none;" fill="currentColor" class="bi bi-caret-down" viewBox="0 0 16 16">
+                        <path d="M3.204 5h9.592L8 10.481zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659"/>
+                    </svg>
+                    <div class="Allparts" id="Allparts">
+                        See more parts
+                    </div>
+                </div>
+                <div class="MoreParts" id="MoreParts">
+                    <div class="Mpart">
+                        <img src="P1.jpg">
+                        <div class="ttl">Air Control Valve
+                        </div>
+                    </div>
+                    <div class="Mpart">
+                        <img src="P2.jpg">
+                        <div class="ttl">Radiator Cooling Fan Clutch
+                        </div>
+                    </div>
+                    <div class="Mpart">
+                        <img src="P3.jpg">
+                        <div class="ttl">Engine Piston
+                        </div>
+                    </div>
+                    <div class="Mpart">
+                        <img src="P4.jpg">
+                        <div class="ttl">Engine Block
+                        </div>
+                    </div>
+                    <div class="Mpart">
+                        <img src="P5.jpg">
+                        <div class="ttl">Vapor Caniste
+                        </div>
+                    </div>
+                    <div class="Mpart">
+                        <img src="P6.jpg">
+                        <div class="ttl">Height Control Pump
+                        </div>
+                    </div>
+                    <div class="Mpart">
+                        <img src="P7.jpg">
+                        <div class="ttl">Clutch
+                        </div>
+                    </div>
+                    <div class="Mpart">
+                        <img src="P8.jpg">
+                        <div class="ttl">Alternators
+                        </div>
+                    </div>
+                    <div class="Mpart">
+                        <img src="P9.jpg">
+                        <div class="ttl">Wheel Hub
+                        </div>
+                    </div>
+                    <div class="Mpart">
+                        <img src="P10.jpg">
+                        <div class="ttl">Liftgate Latch Actuator
+                        </div>
+                    </div>
+                    <div class="Mpart">
+                        <img src="P11.jpg">
+                        <div class="ttl">RX570 headlights
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Parts" id="SS">
+                <div class="part" id="c1">
+                    <p>V6 ENGINE</p>
+                </div>
+                <div class="part1" id="c2">
+                    <p>LIFTGATE LATCH ACTUATOR</p>
+                </div>
+                <div class="part" id="c3">
+                    <p>VAPOR CANISTER</p>
+                </div>
+                <div class="part" id="c4">
+                    <p>ALTERNATOR</p>
+                </div>
+                <div class="part" id="c5">
+                    <p>HEIGHT CONTROL PUMP </p>
+                </div>
+                <div class="part2" id="c6">
+                    <p>CLUTCH</p>
+                </div>
+            </div>
+            <div id="AdvPage">
+                <div class="card" id="card1">
+                    <img src="tyreCheck.jpg">
+                    <div>
+                        <h2>Keep an eye on your tyre</h2>
+                        <h3> Published 2024.03.04</h3>
+                        <p>
+                            Check your tyre pressures and increase them if necessary. 
+                            Overly low or high tyre pressures can change how your car drives and how 
+                            your tyres wear out, sometimes shortening their lifespan. Tyres must be 
+                            the right type and size for your model, with at least the minimum legal 
+                            tread depth of 1.6mm – trying the 20p test is a quick and simple way of 
+                            checking if your tread is above the legal limit.
+                        </p>
+                        <button id="More1" onclick="More1()">More</button>
+                    </div>
+                </div>
+                <div class="card" id="card2">
+                    <img src="OilCheck.jpg">
+                    <div>
+                        <h2>Top up your engine oil</h2>
+                        <h3> Published 2024.03.04</h3>
+                        <p>
+                            Ensure your oil level is between the minimum and maximum mark on your 
+                            car's dipstick. If you’re low on oil, you risk breaking down or causing 
+                            damage to your car’s engine. Too much oil can cause damage, too, so 
+                            don’t just pour a whole bottle in.
+                        </p>
+                        <button id="More2" onclick="More2()">More</button>
+                    </div>
+                </div>
+                <div class="card" id="card3">
+                    <img src="BatteryCheck.jpg">
+                    <div>
+                        <h2>Keep your battery in check</h2>
+                        <h3> Published 2024.03.04</h3>
+                        <p>
+                            Aim to change your car’s battery every three years, if possible, as a 
+                            flat or faulty battery is a common cause of vehicle breakdowns.
+            
+                            According to Green Flag, warning signs of battery failure include the 
+                            engine turning over more slowly than usual when you start it. Also, the 
+                            red battery light in the instrument display may flicker when you’re 
+                            driving or take longer than usual to go out after you’ve started the 
+                            engine.
+                        </p>
+                        <button id="More3" onclick="More3()">More</button>
+                    </div>
+                </div>
+                <div class="card" id="card4">
+                    <img src="CoolingLiquid.jpg">
+                    <div>
+                        <h2>Top up your cooling system liquid</h2>
+                        <h3> Published 2024.03.04</h3>
+                        <p>
+                            Despite its name, coolant – a mixture of antifreeze and water – isn’t
+                             just for winter. Your car needs it all year round to keep the engine 
+                             at the right temperature. Check your car manual to make sure you stay
+                              on top of your car’s coolant needs.
+                        </p>
+                        <button id="More4" onclick="More4()">More</button>
+                    </div>
+                </div>
+                <div class="card" id="card5">
+                    <img src="BrakeCheck.jpg">
+                    <div>
+                        <h2>Test your brakes</h2>
+                        <h3> Published 2024.03.04</h3>
+                        <p>
+                            Test the handbrake and footbrake to ensure they work properly. 
+                            It’s a good idea to do this on your driveway or somewhere without 
+                            traffic, so you can give your brakes a go safely.
+                        </p>
+                        <button id="More5" onclick="More5()">More</button>
+                    </div>
+                </div>
+                <div class="card" id="card6">
+                    <img src="Dashboard.jpg">
+                    <div>
+                        <h2>Pay attention to your dashboard messages</h2>
+                        <h3> Published 2024.03.04</h3>
+                        <p>
+                            Lots of people don’t know what the dashboard warning lights mean. 
+                            Take time to get to know what they’re about and how you should react 
+                            to each of them, so you’re not caught by surprise if one comes on 
+                            while you’re driving.
+                        </p>
+                        <button id="More6" onclick="More6()">More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="HR" id="HumanR">
+                <div class="container">
+                    <div class="card1">
+                        <div class="front-side">
+                            <img src="002r.jpg" 
+                            style="background-size: cover; position: absolute;
+                            z-index: -1;width: 120%; height: 100%;
+                            border-radius: 1rem;">
+                            <h2>Мэргэшсэн инженер</h2>
+                        </div>
+                        <div class="back-side">
+                            <h1>О. Цэрэнцоодол</h1>
+                            <p>Мэргэшсэн инженер</p>
+                            <p>Ажилсан жил: 11</p>
+                            <p>Бакалавр</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="card1">
+                        <div class="front-side">
+                            <img src="002r.jpg" 
+                            style="background-size: cover; position: absolute;
+                            z-index: -1;width: 120%; height: 100%;
+                            border-radius: 1rem;"><h2>Ахлах механик</h2></div>
+                        <div class="back-side">
+                            <h1>С.Банзрагч</h1>
+                            <p>Механик инженер</p>
+                            <p>Ажилсан жил: 6</p>
+                            <p>Тусгай дунд</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="card1">
+                        <div class="front-side">
+                            <img src="002r.jpg" 
+                            style="background-size: cover; position: absolute;
+                            z-index: -1;width: 120%; height: 100%;
+                            border-radius: 1rem;"><h2>Ахлах механик</h2></div>
+                        <div class="back-side">
+                            <h1>Н.Тэнгис</h1>
+                            <p>Автын засварчин</p>
+                            <p>Ажилсан жил: 10</p>
+                            <p>Тусгай дунд</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="card1">
+                        <div class="front-side">
+                            <img src="002r.jpg" 
+                            style="background-size: cover; position: absolute;
+                            z-index: -1;width: 120%; height: 100%;
+                            border-radius: 1rem;"><h2>Ахлах механик</h2></div>
+                        <div class="back-side">
+                            <h1>П.Бумандэмбэрэл</h1>
+                            <p>Авто механик</p>
+                            <p>Ажилсан жил: 4</p>
+                            <p>Тусгай дунд</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="card1">
+                        <div class="front-side">
+                            <img src="002r.jpg" 
+                            style="background-size: cover; position: absolute;
+                            z-index: -1;width: 120%; height: 100%;
+                            border-radius: 1rem;"><h2>Механик</h2></div>
+                        <div class="back-side">
+                            <h1>Г.Тунгалагтэрх</h1>
+                            <p>Автын засварчин</p>
+                            <p>Ажилсан жил: 8</p>
+                            <p>Тусгай дунд</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="card1">
+                        <div class="front-side">
+                            <img src="002r.jpg" 
+                            style="background-size: cover; position: absolute;
+                            z-index: -1;width: 120%; height: 100%;
+                            border-radius: 1rem;"><h2>Механик</h2></div>
+                        <div class="back-side">
+                            <h1>Б.Батхишиг</h1>
+                            <p>Авто механик</p>
+                            <p>Ажилсан жил: 7</p>
+                            <p>Тусгай дунд</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="card1">
+                        <div class="front-side">
+                            <img src="002r.jpg" 
+                            style="background-size: cover; position: absolute;
+                            z-index: -1;width: 120%; height: 100%;
+                            border-radius: 1rem;"><h2>Механик</h2></div>
+                        <div class="back-side">
+                            <h1>Г.Ариунтөгс</h1>
+                            <p>Авто инженер</p>
+                            <p>Ажилсан жил: 4</p>
+                            <p>Бакалавр</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="card1">
+                        <div class="front-side">
+                            <img src="002r.jpg" 
+                            style="background-size: cover; position: absolute;
+                            z-index: -1;width: 120%; height: 100%;
+                            border-radius: 1rem;"><h2>Механик</h2></div>
+                        <div class="back-side">
+                            <h1>Х.Батбуян</h1>
+                            <p>Авто засварчин</p>
+                            <p>Ажилсан жил: 3</p>
+                            <p>Тусгай дунд</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="card1">
+                        <div class="front-side">
+                            <img src="002r.jpg" 
+                            style="background-size: cover; position: absolute;
+                            z-index: -1;width: 120%; height: 100%;
+                            border-radius: 1rem;"><h2>Механик</h2></div>
+                        <div class="back-side">
+                            <h1>Д. Мөнхтөр</h1>
+                            <p>Инженер</p>
+                            <p>Ажилсан жил: 1</p>
+                            <p>Бакалавр</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="card1">
+                        <div class="front-side">
+                            <img src="002r.jpg" 
+                            style="background-size: cover; position: absolute;
+                            z-index: -1;width: 120%; height: 100%;
+                            border-radius: 1rem;"><h2>Механик</h2></div>
+                        <div class="back-side">
+                            <h1>Ц. Мянганбаяр</h1>
+                            <p>Авто инженер</p>
+                            <p>Ажилсан жил: 2</p>
+                            <p>Бакалавр</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="card1">
+                        <div class="front-side">
+                            <img src="002r.jpg" 
+                            style="background-size: cover; position: absolute;
+                            z-index: -1;width: 120%; height: 100%;
+                            border-radius: 1rem;"><h2>Механик</h2></div>
+                        <div class="back-side">
+                            <h1>Б. Мөнх-эрдэнэ</h1>
+                            <p>Авто инженер</p>
+                            <p>Ажилсан жил: 1</p>
+                            <p>Бакалавр</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="card1">
+                        <div class="front-side">
+                            <img src="002r.jpg" 
+                            style="background-size: cover; position: absolute;
+                            z-index: -1;width: 120%; height: 100%;
+                            border-radius: 1rem;"><h2>Механик</h2></div>
+                        <div class="back-side">
+                            <h1>М. Балжинням</h1>
+                            <p>Авто засварчин</p>
+                            <p>Ажилсан жил: 1</p>
+                            <p>Тусгай дунд</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="card1">
+                        <div class="front-side">
+                            <img src="002r.jpg" 
+                            style="background-size: cover; position: absolute;
+                            z-index: -1;width: 120%; height: 100%;
+                            border-radius: 1rem;"><h2>Туслах механик</h2></div>
+                        <div class="back-side">
+                            <h1>О. Оргилболд</h1>
+                            <p>Авто засварчин</p>
+                            <p>Ажилсан жил: 1</p>
+                            <p>Бакалавр</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="card1">
+                        <div class="front-side">
+                            <img src="002r.jpg" 
+                            style="background-size: cover; position: absolute;
+                            z-index: -1;width: 120%; height: 100%;
+                            border-radius: 1rem;"><h2>Туслах механик</h2></div>
+                        <div class="back-side">
+                            <h1>О. Түшигбаяр</h1>
+                            <p>Авто механик</p>
+                            <p>Ажилсан жил: 1</p>
+                            <p>Тусгай дунд</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="card1">
+                        <div class="front-side">
+                            <img src="002r.jpg" 
+                            style="background-size: cover; position: absolute;
+                            z-index: -1;width: 120%; height: 100%;
+                            border-radius: 1rem;"><h2>Туслах механик</h2></div>
+                        <div class="back-side">
+                            <h1>Э. Ганжуур</h1>
+                            <p>Авто засварчин</p>
+                            <p>Ажилсан жил: 1</p>
+                            <p>Тусгай дунд</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="card1">
+                        <div class="front-side">
+                            <img src="002r.jpg" 
+                            style="background-size: cover; position: absolute;
+                            z-index: -1;width: 120%; height: 100%;
+                            border-radius: 1rem;"><h2>Механик</h2></div>
+                        <div class="back-side">
+                            <h1>О. Лхагвабаяр</h1>
+                            <p>Авто засварчин</p>
+                            <p>Ажилсан жил: 1</p>
+                            <p>Тусгай дунд</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="card1">
+                        <div class="front-side">
+                            <img src="002r.jpg" 
+                            style="background-size: cover; position: absolute;
+                            z-index: -1;width: 120%; height: 100%;
+                            border-radius: 1rem;"><h2>Механик</h2></div>
+                        <div class="back-side">
+                            <h1>Т. Пүрэвдорж </h1>
+                            <p>Механик</p>
+                            <p>Ажилсан жил: 1</p>
+                            <p>Бакалавр</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="card1">
+                        <div class="front-side">
+                            <img src="002r.jpg" 
+                            style="background-size: cover; position: absolute;
+                            z-index: -1;width: 120%; height: 100%;
+                            border-radius: 1rem;"><h2>Туслах механик</h2></div>
+                        <div class="back-side">
+                            <h1>Ц. Сүхбаатар</h1>
+                            <p>Авто засварчин</p>
+                            <p>Ажилсан жил: 1</p>
+                            <p>Тусгай дунд</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="card1">
+                        <div class="front-side">
+                            <img src="002r.jpg" 
+                            style="background-size: cover; position: absolute;
+                            z-index: -1;width: 120%; height: 100%;
+                            border-radius: 1rem;"><h2>Туслах механик</h2></div>
+                        <div class="back-side">
+                            <h1>А. Баянбаатар</h1>
+                            <p>Авто засварчин</p>
+                            <p>Ажилсан жил: 1</p>
+                            <p>Тусгай дунд</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Language">
+        <a href="200and570.html" class="ActivateL">
+            <img src="MGLsqr.png" class="CountryFlag">
+        </a>
+    </div>
+    <div id="footer" data-rellax-speed="3">
+        <!--ene heseg n company-n medeelel aguulna-->
+        <img src="HamtOlon.jpg" class="HamtOlon">
+        <h1>БИДНИЙ ТУХАЙ</h1>
+        <h2>“Гранд сутай”-ХХК нь 2013 оны 10 сард Тоёота болон Лексус фирмийн жип 
+            ангиллын авто машинуудад зориулан “200 & 570 Service” нэртэй авто засвар, 
+            үйлчилгээний төвөө нээсэн. <br>
+
+            Бид үйлчлүүлэгчдээ ая тухтай орчинд, чанартай үйлчилгээг үзүүлэхийг зорьдог. 
+            Тиймээс бид ажиллагсдынхаа мэдлэг, ур чадварыг нь байнга дээшлүүлж, хөгжүүлэх, 
+            ажлын таатай орчин нөхцөлийг бүрдүүлэхэд их анхаарч ажиллаж байна.<br>
+            
+            Манай компанийн үйл ажиллагааг дэмжин хамтран ажилладаг гадаад дотоодын түнш 
+            байгууллага, хувь хүмүүс болон үйлчлүүлэгч та бүхэнд хамт олныхоо нэрийн өмнөөс 
+            үргэлж баярлаж явдгаа илэрхийлэхийн ялдамд, чин сэтгэлийн мэндчилгээ илгээж, сайн 
+            сайхан бүхнийг хүсэн ерөөе.<br>
+        </h2>
+        <div class="Milestone" id="Milestone">
+            <div class="box">
+                <div class="movingIcon"><img src="Years.png"></div>
+                <div class="counter" data-val="10">0</div>
+                <div class="tailbar">Жилийн түүх</div>
+            </div>
+            <div class="box">
+                <div class="movingIcon"><img src="car-parts.png"></div>
+                <div class="counter" data-val="1000">0</div>
+                <div class="tailbar">Оргинал сэлбэг</div>
+            </div>
+            <div class="box">
+                <div class="movingIcon"><img src="Customer.png"></div>
+                <div class="counter" data-val="8000">0</div>
+                <div class="tailbar">Хэрэглэгч</div>
+            </div>
+            <div class="box">
+                <div class="movingIcon"><img src="Worker.png"></div>
+                <div class="counter" data-val="30">0</div>
+                <div class="tailbar">Ажилчид</div>
+            </div>
+        </div>
+        <div class="fbvideo">
+            <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F200and570service%2Fvideos%2F578273867819400%2F&show_text=false&width=560&t=0" 
+            style=" width: 60%;height: 35vw; overflow: hidden; 
+            display: flex; justify-content: center; border-style: none; 
+            margin-bottom: 5vh; margin-left: 20%; margin-right: 20%;"
+            scrolling="no" frameborder="0" allowfullscreen="true" 
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" 
+            allowFullScreen="true"></iframe>
+            <div class="VSideT">"БИД ҮЙЛЧЛҮҮЛЭГЧДИЙНХЭЭ АВТО МАШИНЫ ТЕХНИКИЙН БҮРЭН 
+                БҮТЭН БАЙДЛЫГ ХАНГАЖ АЮУЛГҮЙ ЗОРЧИХОД ТУСЛАНА"</div>
+        </div>
+        <div class="LiveMap">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1891.1120938178317!2d106.9102493323699!3d47.9085934634175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5d96924b7e9c8775%3A0x512b4de97a009451!2s200%20%26%20570%20Auto%20Service!5e0!3m2!1smn!2smn!4v1710238996882!5m2!1smn!2smn" 
+            style=" width: 100%; height: 30vh; overflow: hidden; 
+            display: flex; justify-content: space-around; border-style: none;
+             border-radius: 10px;"
+            allowfullscreen="" loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="Rfooter">
+            <div class="Address">200 & 570 Авто сервис, Баянгол дүүрэг, 3-р хороо,
+                Энхтайвны гүүрний баруун доор, Улаанбаатар</div>
+            <div class="Contact">&#9990; +976-7272 7200</div>
+            <div class="Email">&#9993; admin@gmail.com</div>
+        </div>
+        <div style="justify-content: center; margin: 5.5em 15em; display: flex; justify-content: space-around;
+        text-align: center;" class="BSocial">
+            <a href="https://www.facebook.com/200and570service" 
+            style="text-decoration: none; ">
+                <img src="FBfooter.png" class="Facebookicon">
+            </a>
+            <a href="https://www.youtube.com/@AutoService570" 
+            style="text-decoration: none;">
+                <img src="YTfooter.png" class="Emailicon">
+            </a>
+            <a href="https://www.instagram.com/autoservice_land/" 
+            style="text-decoration: none;">
+                <img src="IGfooter.png" class="Instagramicon">
+            </a>
+        </div>
+        <div class="line"></div>
+        <div class="ARR">&copy; 2024 | Designed by SprouX</div>
+    </div>    
+    <a href="#" class="BackToTop">
+        <span class="material-symbols-outlined" >
+            keyboard_double_arrow_up
+        </span>
+    </a>
+    <script src="200570Eng.js"></script>
+</body>
+</html>
