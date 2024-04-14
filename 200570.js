@@ -119,7 +119,8 @@ menu4.onclick=function(){
     Advice.style.display='none'
     HumanR.style.display='flex'
 } 
-menu5.onclick=function(){
+menu5.onclick=function(){    
+    backgroundElement.style.background='var(--hoverBGColor)'
     SerVV.style.display='none'
     topParts.style.display='none'
     service.style.display='none'
