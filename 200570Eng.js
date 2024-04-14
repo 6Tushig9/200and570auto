@@ -120,6 +120,7 @@ menu4.onclick=function(){
     HumanR.style.display='flex'
 } 
 menu5.onclick=function(){
+    backgroundElement.style.background='var(--hoverBGColor)'
     SerVV.style.display='none'
     topParts.style.display='none'
     service.style.display='none'
