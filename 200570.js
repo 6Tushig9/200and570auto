@@ -134,7 +134,6 @@ menu5.onclick=function(){
 };
 
 
-
 c1.onmouseenter=function(){
     backgroundElement.style.backgroundImage='url("P4.jpg")';
     service.style.backgroundColor='#bdbec700'
@@ -146,8 +145,8 @@ c1.onmouseenter=function(){
     c4.style.opacity='10%'
     c5.style.opacity='10%'
     c6.style.opacity='10%'
-    ProName.innerHTML='V6 Engine'
-    Specs.innerHTML='V6 Engine is a 6-cylinder engine. The "V" represents the way cylinders are arranged in your engine. Or to put it the other way, in two equal rows.'
+    ProName.innerHTML='V6 Хөдөлгүүр'
+    Specs.innerHTML='V6 хөдөлгүүр нь 6н цилиндрт хөдөлгүүр юм. Цилиндрүүд нь "V" хэлбэрээр буюу 2 эгнээгээр байрладаг'
 }
 c1.onmouseleave=function(){
     service.style.backgroundColor='#bdbec700'
@@ -170,8 +169,8 @@ c2.onmouseenter=function(){
     c4.style.opacity='10%'
     c5.style.opacity='10%'
     c6.style.opacity='10%'
-    ProName.innerHTML='Liftgate latch actuator'
-    Specs.innerHTML='The Liftgate Actuator is responsible for locking, unlocking, and opening the rear liftgate when you press the button on your car.'
+    ProName.innerHTML='Доод хаалганы цоож'
+    Specs.innerHTML='Доод хаалганы цоож нь хаалгыг түгжих болон онгойлох үүрэгтэй'
 }
 c2.onmouseleave=function(){
     service.style.backgroundColor='#bdbec700'
@@ -195,7 +194,7 @@ c3.onmouseenter=function(){
     c5.style.opacity='10%'
     c6.style.opacity='10%'
     ProName.innerHTML='Altenator'
-    Specs.innerHTML='Alternators main responsibility is to convert chemical energy to electrical energy so that you can charge and replenish the battery in your engine and other electrical components in a car.'
+    Specs.innerHTML='Alternator-н гол үүрэг нь химийн энергийг цахилгаан энерги болгон хувиргаж баттерей болон бусад цахилгаан хэрэгслийг цэнэглэх үүрэгтэй'
 }
 c3.onmouseleave=function(){
     service.style.backgroundColor='#bdbec700'
@@ -218,8 +217,8 @@ c4.onmouseenter=function(){
     c4.style.borderColor='#3b3d4880'
     c5.style.opacity='10%'
     c6.style.opacity='10%'
-    ProName.innerHTML='Vapor canister'
-    Specs.innerHTML='A vehicles vapor canister is an important part of its federally mandated emissions control system. When properly installed and maintained, the vapor canister reduces the amount of evaporated fuel a car or truck emits.'
+    ProName.innerHTML='Ууршуулагч'
+    Specs.innerHTML='Ууршуулагч нь машинаас гарч буй түлшний утааг багасгах үүрэгтэй'
 }
 c4.onmouseleave=function(){
     service.style.backgroundColor='#bdbec700'
@@ -242,8 +241,8 @@ c5.onmouseenter=function(){
     c5.style.opacity='100%'
     c5.style.borderColor='#3b3d4880'
     c6.style.opacity='10%'
-    ProName.innerHTML='Height control pump'
-    Specs.innerHTML='The height control pump is responsible for pressurizing the air reservoir and regulating the air flow to the suspension components to maintain the desired ride height.'
+    ProName.innerHTML='Өргөгчийн насос'
+    Specs.innerHTML='Өргөгчийн насос нь машиний "suspension system"-н агаарын солилцоог тохируулж машиныг нэгэн жигд өндөрт явах бололцоог хангаж өгдөг.'
 }
 c5.onmouseleave=function(){
     service.style.backgroundColor='#bdbec700'
@@ -266,8 +265,8 @@ c6.onmouseenter=function(){
     c5.style.opacity='10%'
     c6.style.opacity='100%'
     c6.style.borderColor='#3b3d4880'
-    ProName.innerHTML='Clutch'
-    Specs.innerHTML='The primary function of the clutch is to engage and disengage the connection between the engine and the transmission. When the clutch pedal is pressed down, the clutch disengages, separating the engines power from the transmission.'
+    ProName.innerHTML='Ган диск'
+    Specs.innerHTML='Ган диск нь хөдөлгүүр болон дамжуулах арааг салгаж залгах гол үүрэгтэй'
 }
 c6.onmouseleave=function(){
     service.style.backgroundColor='#bdbec700'
@@ -279,8 +278,6 @@ c6.onmouseleave=function(){
     c6.style.borderColor='#3b3d4880'
     c6.style.opacity='30%'
 }
-
-
 
 const Milestone=document.getElementById('Milestone');
 /*new IntersectionObserver();
@@ -333,13 +330,13 @@ function More1(){
     var buttonname=document.getElementById('More1');
     if(pelement.style.overflow==="visible")
     {
-        buttonname.innerHTML="More..."
+        buttonname.innerHTML="Дэлгэрэнгүй..."
         pelement.style.overflow="hidden"
         pelement.style.height="50px"
     }
     else
     {
-        buttonname.innerHTML="Hide"
+        buttonname.innerHTML="Нуух"
         pelement.style.overflow="visible"
         pelement.style.height="auto"
     }
@@ -349,13 +346,13 @@ function More2(){
     var buttonname=document.getElementById('More2');
     if(pelement.style.overflow==="visible")
     {
-        buttonname.innerHTML="More..."
+        buttonname.innerHTML="Дэлгэрэнгүй..."
         pelement.style.overflow="hidden"
         pelement.style.height="50px"
     }
     else
     {
-        buttonname.innerHTML="Hide"
+        buttonname.innerHTML="Нуух"
         pelement.style.overflow="visible"
         pelement.style.height="auto"
     }
@@ -365,13 +362,13 @@ function More3(){
     var buttonname=document.getElementById('More3');
     if(pelement.style.overflow==="visible")
     {
-        buttonname.innerHTML="More..."
+        buttonname.innerHTML="Дэлгэрэнгүй..."
         pelement.style.overflow="hidden"
         pelement.style.height="50px"
     }
     else
     {
-        buttonname.innerHTML="Hide"
+        buttonname.innerHTML="Нуух"
         pelement.style.overflow="visible"
         pelement.style.height="auto"
     }
@@ -381,13 +378,13 @@ function More4(){
     var buttonname=document.getElementById('More4');
     if(pelement.style.overflow==="visible")
     {
-        buttonname.innerHTML="More..."
+        buttonname.innerHTML="Дэлгэрэнгүй..."
         pelement.style.overflow="hidden"
         pelement.style.height="50px"
     }
     else
     {
-        buttonname.innerHTML="Hide"
+        buttonname.innerHTML="Нуух"
         pelement.style.overflow="visible"
         pelement.style.height="auto"
     }
@@ -397,13 +394,13 @@ function More5(){
     var buttonname=document.getElementById('More5');
     if(pelement.style.overflow==="visible")
     {
-        buttonname.innerHTML="More..."
+        buttonname.innerHTML="Дэлгэрэнгүй..."
         pelement.style.overflow="hidden"
         pelement.style.height="50px"
     }
     else
     {
-        buttonname.innerHTML="Hide"
+        buttonname.innerHTML="Нуух"
         pelement.style.overflow="visible"
         pelement.style.height="auto"
     }
@@ -413,19 +410,17 @@ function More6(){
     var buttonname=document.getElementById('More6');
     if(pelement.style.overflow==="visible")
     {
-        buttonname.innerHTML="More..."
+        buttonname.innerHTML="Дэлгэрэнгүй..."
         pelement.style.overflow="hidden"
         pelement.style.height="50px"
     }
     else
     {
-        buttonname.innerHTML="Hide"
+        buttonname.innerHTML="Нуух"
         pelement.style.overflow="visible"
         pelement.style.height="auto"
     }
 }
-
-
 
 
 
