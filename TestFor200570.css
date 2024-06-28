@@ -1143,7 +1143,7 @@ body{
 
 
 
-@media (width <=600px) {
+@media (width <=650px) {
     .Main{
             display: none;
     }
