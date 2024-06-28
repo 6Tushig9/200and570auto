@@ -1571,5 +1571,29 @@ body{
         line-height: 1.3rem;
         overflow: hidden;
     }
-    
+        #footer{
+        width: 390px;
+        height: auto;
+        margin-top: 4rem;
+    }
+    .Address{
+        width: 80vw;
+        height: auto;
+    }
+    .Contact{
+        width: 80vw;
+        height: auto;
+    }
+    .Email{
+        width: 80vw;
+        height: auto;
+    }
+    .ARR{
+        width: 85vw;
+        height: auto;
+        align-self: center;
+        margin: auto;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }  
 }
